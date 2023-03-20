@@ -1,8 +1,5 @@
 # FlashCards Starter Kit
 
-## Fork This Repo
-
-On the top right corner of this page, click the **Fork** button.
 
 ## Setup
 
