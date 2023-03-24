@@ -1,47 +1,29 @@
-# FlashCards Starter Kit
+# FlashCards 
+
+Abstract at the top (A sentence or two describing the project)
+A GIF of the working application
+Technologies used
+Install/Setup instructions
+
+### Abstract:
+[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+This is a flashcard game that is playable through the terminal
 
 
-## Setup
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+### Installation Instructions:
+[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+1. Fork and clone this repo.
+2. Type `cd flashcards` to move into the root directory
+3. Type `npm install` 
+4. type `node index.js` to begin game
 
 
-## Where to Add Your Code
+### Preview of App:
+[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+![Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmJmOTlmZDFkYWZjNmE3YmJlYjUwYTE5ZDE2ZjY4YzFjNTFmMGJhYiZjdD1n/DdgLmf0G0mxi6BOkfb/giphy.gif)
 
-### JavaScript
 
-**Create all of your feature code files in the `src` directory.**
-
-We will be using the `module.exports` and `require` syntax to share code across files.
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
-
+### Context:
+[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+This is my first project in Module 2 of the front-end software development program at Turing. I have been in the program for 8 weeks. This program took 16 hours to complete. This program was an exercise in test driven development and object oriented design 
 
