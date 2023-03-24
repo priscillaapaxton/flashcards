@@ -35,21 +35,21 @@ describe('Round', function() {
 
     round.takeTurn('sea otter')
 
-    // assert.equal(round.turns, 2)
+    assert.equal(round.turns, 2)
   })
 
   it('should return the current card', function() {
 
-    assert.equal(round.returnCurrentCard(), round.deck[0])
+    assert.equal(round.returnCurrentCard(), round.deck.cards[1])
   })
 
   it('should store and update incorrect guesses', function() {
 
     assert.equal(round.incorrectGuesses, 0)
 
-    // round.takeTurn('array')
+    round.takeTurn('array')
 
-    // assert.equal(round.incorrectGuesses.length, 1)
+    assert.equal(round.incorrectGuesses.length, 1)
   })
 
 })
