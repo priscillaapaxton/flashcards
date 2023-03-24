@@ -1,10 +1,5 @@
 # FlashCards 
 
-Abstract at the top (A sentence or two describing the project)
-A GIF of the working application
-Technologies used
-Install/Setup instructions
-
 ### Abstract:
 [//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
 This is a flashcard game that is playable through the terminal
